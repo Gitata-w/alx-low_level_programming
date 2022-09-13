@@ -9,18 +9,16 @@
 
 int main(void)
 {
-	int c, h;
+	int num1, num2;
 
-	c = h = '0';
-
-	for (c = '0'; c <= '9'; c++)
+	for (num1 = 48; num1 <= 57; num1++)
 	{
-		for (h = '0'; h <= '9'; h++)
+		for (num2 = num1 + 1; num2 <= 57; num2++)
 		{
-			putchar(c);
-			putchar(h);
+			putchar(num1);
+			putchar(num2);
 
-			if ((c != '9') || (c == '9' && h != '9'))
+			if (!(num1 == 56 && num2 == 57))
 			{
 				putchar(',');
 				putchar(' ');
