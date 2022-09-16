@@ -10,6 +10,6 @@ int main(void)
 	int i;
 
 	i = 0;
-	positve_or_negative(i);
+	positive_or_negative(i);
 	return (0);
 }
