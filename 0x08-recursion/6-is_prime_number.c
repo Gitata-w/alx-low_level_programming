@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * is_prime - find a prime number
+ * is_prime_number - print prime numbers
  * @i: input int i
  * @j: input int j
  * Return: boolean val of the state of inputs
